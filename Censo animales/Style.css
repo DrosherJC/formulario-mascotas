@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(https://img.freepik.com/premium-vector/pattern-pet-products-elements-drawn-handstyle-doodle_313437-1623.jpg);
+}
+.header{
+    background-color: #5D6D7E;
+    padding: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Open sans";
+    color: #FDFEFE ; 
+}
+.container-header{
+    margin-left: 20px;
+    font-size: 1.3rem;
+}
+.link{
+    margin-right: 20px;
+    color: #FDFEFE;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+.link:hover{
+    background-color: #B2BABB;
+}
+form{
+    margin: 50px auto;
+    background-color: #D5DBDB;
+    width: 700px;
+    padding: 2.5rem;
+    border-radius: 5px;
+}
+.forms-grupos{
+    display: flex;
+    flex-direction: column;
+    color: #2E4053;
+    font-size: 19px;
+    font-family: "Roboto";
+    font-weight: 900px;
+}
+input[type="text"]{
+    margin: 15px 0 ;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #2E4053;
+}
+
+.selectOp{
+    margin: 15px 0;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #2E4053;
+    width: 100%;
+}
+.buttom{
+    margin-top: 25px;
+}
+input[type="Submit"]{
+    width: 100px;
+    padding: 10px;
+    font-size:  18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #34495E;
+    color: #FDFEFE;
+}

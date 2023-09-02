@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+  <header class="header">
+    <div class="container-header">
+        <h1>Registro de animales en casa </h1>
+    </div>
+    <nav class="menu">
+        <a class="link"  href="#">Inicio</a>
+        <a class="link"  href="#">Formulario</a>
+        <a class="link"  href="#">Nosotros</a>
+        <a class="link"  href="#">Ayuda</a>
+    </nav>
+  </header>  
+  <form action="#" method="post">
+    <div class="forms-grupos">
+        <label> <p><b>Tiene animales domesticos? </b> </p>
+            <input type="radio" name="opcion-user" id="Tiene animales">
+            <b>Si</b> 
+            <input type="radio" name="opcion-user" id="Tiene animales">
+            <b>No</b>
+        </label>
+    </div>
+    <div class="forms-grupos">
+        <p><b>Cuantos animales tiene en casa?</b></p>
+        <label>
+            <select name="animals-house" id="select" class="selectOp">
+                <option disabled selected value>Seleccione un número</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="más de 3">Más de 3</option>
+                <option value="burga gay">Burga gay</option>
+            </select>
+        </label>
+    </div>
+      <div class="forms-grupos">
+        <label> <p><b>Especie del animal </b> </p>
+            <input type="radio" name="opcion-user" id="Tiene animales">
+            <b>Perro</b> 
+            <input type="radio" name="opcion-user" id="Tiene animales">
+            <b>Gato</b>
+            <input type="radio" name="opcion-user" id="Tiene animales">
+            <b>Oveja</b>
+            <input type="radio" name="opcion-user" id="Tiene animales">
+            <b>Vaca</b>
+            <input type="radio" name="opcion-user" id="Tiene animales">
+            <b>Caballo </b> 
+            <p><b> Otra especie<input type="text" name="opcion-user" id="Tiene animales" placeholder="Inserte especie"></b></p>
+        </label>
+    </div>
+
+    <div class="forms-grupos">
+        <label> <p><b>Nombre de la mascota </b></p></label>
+        <input type="text" name="name-label" id="nombre" placeholder="Ingrese nombre" required>
+        <p><i>En caso de no tener nombres, colocar "Sin nombre"</i></p>
+    </div>
+   
+    <div class="forms-grupos">
+        <p><b>Cuál es el motivo para tener animales en su hogar?</b></p>
+        <label>
+            <input type="radio" name="opcion-user" id="definitivamente">
+            <b>Companía</b>
+        </label>
+        <label>
+            <input type="radio" name="opcion-user" id="probablemente">
+            <b>Ejercicio y actividad</b>
+        </label>
+        <label>
+            <input type="radio" name="opcion-user" id="no estoy segur@">
+            <b>Protección</b>
+            
+            <p><b>Otro motivo<input type="text" name="opcion-user" id="Tiene animales" placeholder="Inserte su respuesta"></b></p>
+
+        </label>
+    <div class="forms-grupos">
+        <p><b>Cómo adquirió a su mascota?</b></p>
+        <label>
+            <input type="radio" name="Compra" id="selection-user">
+            <b>Compra</b>
+        </label>
+        <label>
+            <input type="radio" name="back-end" id="selection-user">
+            <b>Adopción</b>
+        </label>
+        <label>
+            <input type="radio" name="back-end" id="selection-user">
+            <b>Rescate</b>
+        </label>
+        <label>
+            <input type="radio" name="front-end" id="slection-user">
+            <b>Criador autorizado</b>
+        </label>
+    </div>
+    <div class="buttom">
+        <input type="submit" value="Enviar">
+    </div>
+  </form>
+</body>
+</html>
